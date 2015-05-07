@@ -1,0 +1,8 @@
+<h1>Pages#home</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+<p>I'm interested in making this page more interactive</p>
+<p>This is all about me. My name is Joe</p>
+  <p>Today is <% = Date.today %>. </p>
+<p>"We are <% = Date.today.wday %> days into the week! Only <% = 7 - Date.today.wday%> to go! </p> -->
+<p>By the way, today is <%= Date::DAYNAMES{Date.today.wday]%></p>
+<p>Tomorrow is <%= Date.today + 1 %>. See you then!</p>
